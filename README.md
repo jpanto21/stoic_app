@@ -1,18 +1,4 @@
-# sinatra-template
-
-Use this repository to create new Sinatra apps. 
-
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+stoic app that gets motivational quotes as well as stoic quotes 
+home page has option to click on two options 
+one option takes you to motivational quotes randomized from api 
+and second option takes you to sotic quotes randomized from another api 
