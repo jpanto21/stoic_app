@@ -1,0 +1,15 @@
+<div>
+  <h3 class="head-text">Your Stoic quote is.. </h3>
+
+  <img class="motivation_img" src="https://www.newtraderu.com/wp-content/uploads/2022/11/Stoic-02.png">
+
+  <div>
+    <p > Author : <%= @author %> </p>
+    <p > Quote : "<%= @quote %>"</p>
+  </div>
+
+  <div>
+    <form action="/stoic_quotes">
+      <button class="button"> I would like another Stoic quote </button>
+    </form>
+  </div>
